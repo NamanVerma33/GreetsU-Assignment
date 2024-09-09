@@ -247,7 +247,7 @@
 import React, { useState } from "react"; // Import useState
 import "./details.css";
 import logo from "../Assests/greetsu-favicon.b43044faff18cc4fe7f572ee5fe84cef.svg";
-import milestone from "../milestones/milestone";
+// import milestone from "../milestones/milestone";
 // import "./milestone.css";
 
 const Details = () => {
