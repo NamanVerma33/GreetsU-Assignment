@@ -362,7 +362,9 @@ const Details = () => {
               required
             />
 
-            <label>Your image (recommended aspect ratio of image 1:1)</label>
+            <label>
+              Your image <div>(recommended aspect ratio of image 1:1)</div>
+            </label>
             <input
               className="input-css"
               style={{ display: "none" }}
@@ -382,7 +384,9 @@ const Details = () => {
               <span className="imagename">{formData.yourImageName}</span>
             )}
 
-            <label>Partner image (recommended aspect ratio of image 1:1)</label>
+            <label>
+              Partner image <div>(recommended aspect ratio of image 1:1)</div>
+            </label>
             <input
               style={{ display: "none" }}
               type="file"
@@ -402,7 +406,9 @@ const Details = () => {
               <span className="imagename">{formData.partnerImageName}</span>
             )}
 
-            <label>Couple Image (optional)</label>
+            <label>
+              Couple Image <div>(optional)</div>
+            </label>
             <input
               style={{ display: "none" }}
               type="file"
